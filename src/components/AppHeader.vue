@@ -13,9 +13,9 @@ export default {
 </script>
 
 <template>
-  <main>
+  <header>
     <HeaderContact :infoChild="info" />
-  </main>
+  </header>
 </template>
 
 <style lang="scss" scoped></style>

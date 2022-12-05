@@ -22,17 +22,14 @@ export default {
         ],
         socials: [
           {
-            href: "#",
             link: "https://it-it.facebook.com/",
             icon: "fa-brands fa-facebook-f",
           },
           {
-            href: "#",
             link: "https://twitter.com/",
             icon: "fa-brands fa-twitter",
           },
           {
-            href: "#",
             link: "https://it.linkedin.com/",
             icon: "fa-brands fa-linkedin-in",
           },

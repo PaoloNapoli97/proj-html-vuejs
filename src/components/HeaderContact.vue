@@ -36,7 +36,7 @@ export default {
 header {
   color: var(--header-secondary-color);
   padding: 10px 0;
-  background-color: var(--header-color);
+  background-color: var(--tertiary-color);
 }
 .container {
   display: flex;

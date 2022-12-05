@@ -6,7 +6,7 @@
         <li class="option" v-for="option in options">
           <a :href="option.href">{{ option.text }}</a>
         </li>
-        <button>GET IN TOUCH</button>
+        <button class="btn btn-primary">GET IN TOUCH</button>
       </ul>
     </div>
   </div>
@@ -69,15 +69,6 @@ export default {
     a {
       text-decoration: none;
       color: inherit;
-    }
-
-    button {
-      border: none;
-      color: white;
-      background-color: var(--primary-color);
-      padding: 10px 14px;
-      border-radius: 4px;
-      cursor: pointer;
     }
   }
 }

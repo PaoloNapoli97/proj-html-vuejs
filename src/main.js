@@ -25,6 +25,7 @@ import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
 import { faInbox } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -44,7 +45,8 @@ library.add(
   faChartLine,
   faScaleBalanced,
   faInbox,
-  faArrowRight
+  faArrowRight,
+  faQuoteRight
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

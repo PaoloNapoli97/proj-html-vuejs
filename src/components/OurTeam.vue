@@ -11,19 +11,40 @@
             They are fundamentals that become daily attitudes.
           </p>
         </div>
+        <div class="card-container">
+          <TeamCard class="cards" v-for="person in team" :data_team="person" />
+        </div>
       </div>
-      <div class="col-small">1</div>
+      <div class="col-small">
+        <h4>President Speech</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          reiciendis cupiditate, perferendis sapiente modi amet corrupti quasi
+          quas <br />
+          <br />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+          quia voluptatibus, ad, assumenda illo fuga voluptate accusantium
+          doloremque enim quam consequuntur veritatis. <br />
+          <br />
+          Vitae provident amet corporis vero ut unde consectetur!
+        </p>
+        <font-awesome-icon class="icon" icon="fa-solid fa-quote-right" />
+      </div>
     </div>
   </main>
 </template>
 
 <script>
+import TeamCard from "./TeamCard.vue";
+
 export default {
+  components: {
+    TeamCard,
+  },
   data() {
     return {
       team: [
         {
-          image: "/team-4.png",
+          image: "team-4.jpg",
           name: "David Cooper",
           role: "CTO & CO-FOUNDER",
           socials: [
@@ -42,7 +63,7 @@ export default {
           ],
         },
         {
-          image: "/team-1.png",
+          image: "team-1.jpg",
           name: "T. Johnson",
           role: "CEO & PRESIDENT",
           socials: [
@@ -61,7 +82,7 @@ export default {
           ],
         },
         {
-          image: "/team-2.png",
+          image: "team-2.jpg",
           name: "Emma Lopez",
           role: "CHIEF MARKETING",
           socials: [
@@ -80,7 +101,7 @@ export default {
           ],
         },
         {
-          image: "/team-3.png",
+          image: "team-3.jpg",
           name: "Oliver Jones",
           role: "CHIEF PROCUREMENT",
           socials: [
@@ -119,10 +140,33 @@ main {
       h2 {
         color: var(--quaternary-color);
       }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .cards {
+          width: calc(100% / 2 - 20px);
+          margin: 10px 0;
+        }
+      }
     }
+
     .col-small {
+      padding: 20px;
       width: 30%;
-      background-color: aqua;
+      background-color: var(--primary-color);
+      border-radius: 4px;
+      position: relative;
+
+      .icon {
+        color: var(--line-color);
+        font-size: 26px;
+        position: absolute;
+        right: 22px;
+        bottom: 20px;
+      }
     }
   }
 }

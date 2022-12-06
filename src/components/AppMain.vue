@@ -2,6 +2,7 @@
 import AboutUs from "./AboutUs.vue";
 import OurServices from "./OurServices.vue";
 import OurPlan from "./OurPlan.vue";
+import OurTeam from "./OurTeam.vue";
 
 export default {
   name: "AppMain",
@@ -9,6 +10,7 @@ export default {
     AboutUs,
     OurServices,
     OurPlan,
+    OurTeam,
   },
 };
 </script>
@@ -17,6 +19,7 @@ export default {
   <AboutUs />
   <OurServices />
   <OurPlan />
+  <OurTeam />
 </template>
 
 <style lang="scss" scoped></style>

@@ -4,7 +4,7 @@
       <div class="section">
         <h6>ABOUT THE NETWORK</h6>
         <div class="col">
-          <h2><span class="badge">The</span>Company</h2>
+          <h2><span class="badge">The</span> Company</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vel
             repellendus earum error animi dolorum delectus minus mollitia nam

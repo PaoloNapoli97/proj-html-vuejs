@@ -22,5 +22,32 @@
 .badge {
   padding: 4px;
   background-color: var(--primary-color-light);
-  margin-right: 8px;
+}
+
+// REUSABLE SECTION
+
+.introduction {
+  position: relative;
+
+  h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--tertiary-color);
+    padding-bottom: 20px;
+  }
+
+  .badge {
+    color: var(--primary-color);
+  }
+
+  h6 {
+    color: var(--primary-color);
+    position: absolute;
+    top: -30px;
+  }
+
+  p {
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
 }

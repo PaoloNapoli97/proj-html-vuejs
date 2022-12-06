@@ -1,6 +1,18 @@
 <template>
   <main>
     <div class="container">
+      <div class="introduction">
+        <h6>OUR BUSINESS AREAS</h6>
+        <h2>Excellence in <span class="badge">Services</span></h2>
+        <div class="row">
+          <p>
+            We are leaders in providinf consultancy services with a set of
+            cutting-edge technologies and a team of experienced and renowned
+            professionals. These are some options that you can hire.
+          </p>
+          <button class="btn btn-primary">SEE ALL</button>
+        </div>
+      </div>
       <div class="card-container">
         <ServiceCard
           class="cards"
@@ -61,17 +73,29 @@ export default {
 <style lang="scss" scoped>
 main {
   background-color: var(--bg-secondary-color);
-  padding: 100px 0;
+  padding: 160px 0;
 
-  .container {
-    position: relative;
+  .row {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      width: 80%;
+    }
+
+    button {
+      align-self: baseline;
+    }
   }
+
   .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     .cards {
       width: calc(100% / 3 - 20px);
+      margin: 10px 0;
     }
   }
 }

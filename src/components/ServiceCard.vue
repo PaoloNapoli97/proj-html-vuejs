@@ -21,7 +21,8 @@ export default {
 .card {
   padding: 30px;
   background-color: var(--quaternary-color);
-  margin: 10px;
+  // margin: 10px;
+  border-radius: 10px;
 
   h4 {
     padding: 10px 0;

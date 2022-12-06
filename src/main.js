@@ -14,7 +14,37 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
+import { faAward } from "@fortawesome/free-solid-svg-icons";
+import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faPlane } from "@fortawesome/free-solid-svg-icons";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
+import { faInbox } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faLinkedinIn, faClock, faPhone, faEnvelope);
+library.add(
+  faFacebookF,
+  faTwitter,
+  faLinkedinIn,
+  faClock,
+  faPhone,
+  faEnvelope,
+  faGraduationCap,
+  faLock,
+  faPenToSquare,
+  faAward,
+  faNetworkWired,
+  faBriefcase,
+  faPlane,
+  faChartLine,
+  faScaleBalanced,
+  faInbox,
+  faArrowRight
+);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

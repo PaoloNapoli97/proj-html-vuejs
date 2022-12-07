@@ -133,6 +133,12 @@ export default {
       />
     </div>
   </main>
+  <footer>
+    <div class="container">
+      <div>Enjoy the low price. We are tracking any intention of piracy</div>
+      <div>© 2020 BOOLEAN is Proudly Powered <span>Help Me</span></div>
+    </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
@@ -181,6 +187,21 @@ main {
           }
         }
       }
+    }
+  }
+}
+
+footer {
+  font-weight: 300;
+  padding: 20px 0;
+  background-color: var(--bg-footer-color);
+  color: var(--quaternary-color);
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      color: var(--primary-color);
     }
   }
 }

@@ -43,6 +43,7 @@ export default {
 <template>
   <AppHeader :info="contacts" />
   <AppMain />
+  <AppFooter />
 </template>
 
 <style lang="scss">

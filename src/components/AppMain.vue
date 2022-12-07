@@ -3,6 +3,8 @@ import AboutUs from "./AboutUs.vue";
 import OurServices from "./OurServices.vue";
 import OurPlan from "./OurPlan.vue";
 import OurTeam from "./OurTeam.vue";
+import LatestNews from "./LatestNews.vue";
+import NewsLetter from "./NewsLetter.vue";
 
 export default {
   name: "AppMain",
@@ -11,6 +13,8 @@ export default {
     OurServices,
     OurPlan,
     OurTeam,
+    LatestNews,
+    NewsLetter,
   },
 };
 </script>
@@ -20,6 +24,8 @@ export default {
   <OurServices />
   <OurPlan />
   <OurTeam />
+  <LatestNews />
+  <NewsLetter />
 </template>
 
 <style lang="scss" scoped></style>

@@ -32,32 +32,34 @@ export default {
     flex-direction: column;
     padding-left: 12px;
 
-    ul {
-      padding-top: 8px;
-      display: flex;
-      list-style: none;
+    .socials {
+      margin-top: auto;
+      ul {
+        display: flex;
+        list-style: none;
 
-      li {
-        margin: 0 4px;
-        width: 30px;
-        height: 30px;
-        position: relative;
-        background-color: var(--primary-color-light);
-        border-radius: 50%;
-      }
-      a {
-        position: absolute;
-        top: 2px;
-        left: 8px;
-        text-decoration: none;
-        color: var(--primary-color);
+        li {
+          margin: 0 4px;
+          width: 30px;
+          height: 30px;
+          position: relative;
+          background-color: var(--primary-color-light);
+          border-radius: 50%;
+        }
+        a {
+          position: absolute;
+          top: 2px;
+          left: 8px;
+          text-decoration: none;
+          color: var(--primary-color);
+        }
       }
     }
   }
 
   img {
     width: 100px;
-    height: 100px;
+    height: 110px;
   }
 }
 </style>

@@ -14,12 +14,10 @@ export default {
       contacts: {
         number: "+1 (305) 1234-5678",
         email: "hello@example.com",
-        location: [
-          {
-            address: "Main Avenue, 987",
-            icon: "fa-solid fa-location-dot",
-          },
-        ],
+        location: {
+          address: "Main Avenue, 987",
+          icon: "fa-solid fa-location-dot",
+        },
         socials: [
           {
             link: "https://it-it.facebook.com/",
@@ -43,7 +41,7 @@ export default {
 <template>
   <AppHeader :info="contacts" />
   <AppMain />
-  <AppFooter />
+  <AppFooter :info="contacts" />
 </template>
 
 <style lang="scss">
